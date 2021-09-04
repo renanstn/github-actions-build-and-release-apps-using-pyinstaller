@@ -72,9 +72,6 @@ jobs:
       with:
         path: ./
 
-    - name: Display structure of downloaded files
-      run: ls -R
-
     - name: Create github release
       id: create_release
       uses: actions/create-release@v1
