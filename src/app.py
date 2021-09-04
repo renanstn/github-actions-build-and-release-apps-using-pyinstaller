@@ -2,6 +2,10 @@ import tkinter as tk
 
 
 class App:
+    """
+    This app is a simple GUI with a counter click button.
+    """
+
     def __init__(self, root):
         self.click_counter = 0
 
