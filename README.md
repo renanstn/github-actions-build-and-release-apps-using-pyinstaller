@@ -1,5 +1,9 @@
 # github-actions-build-and-release-apps-using-pyinstaller
 
+[![Python](https://img.shields.io/badge/python-%2314354C.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+![GitHub Actions](https://img.shields.io/badge/githubactions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white)
+
+
 Repositório de estudo de uso do github actions, para buildar e criar releases linux e windows de um app python automaticamente.
 
 ## Como funciona
