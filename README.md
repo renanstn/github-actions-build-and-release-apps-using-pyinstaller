@@ -16,10 +16,10 @@ on:
 
 Logo abaixo, temos as definições dos jobs que buildam o app para linux e windows. Cada job tem basicamente os mesmos passos:
 
-1 - Faz o checkout do código com a action `actions/checkout@v2`
-2 - Instala as dependências com um `pip install -r requirements-dev.txt`
-3 - Utiliza o [pyinstaller](https://www.pyinstaller.org/#) para transformar nosso app `.py` em um `exe`
-4 - Faz o upload do artefato, que no caso é o build gerado, com a action `actions/upload-artifact@v2`
+1. Faz o checkout do código com a action `actions/checkout@v2`
+2. Instala as dependências com um `pip install -r requirements-dev.txt`
+3. Utiliza o [pyinstaller](https://www.pyinstaller.org/#) para transformar nosso app `.py` em um `exe`
+4. Faz o upload do artefato, que no caso é o build gerado, com a action `actions/upload-artifact@v2`
 
 Por último, temos o job `create-release`.
 
